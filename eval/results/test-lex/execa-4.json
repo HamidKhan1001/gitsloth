@@ -1,0 +1,47 @@
+{
+ "repo": "execa",
+ "commits": [
+  "94a75df Allow appending to files (#1166)",
+  "4d1e55a 9.5.0",
+  "ab886ff Upgrade `which` (#1168)",
+  "e3572d0 Do not write verbose logs synchronously (#1167)"
+ ],
+ "units": 22,
+ "scored": 20,
+ "true_commits": 4,
+ "pred_groups": 9,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to docs/bash.md, docs/output.md",
+  "G2": "Changes to lib/io/output-sync.js",
+  "G3": "Changes to lib/stdio/handle-async.js, lib/stdio/handle-sync.js",
+  "G4": "Changes to lib/stdio/type.js",
+  "G5": "Changes to lib/verbose/log.js",
+  "G6": "Changes to package.json",
+  "G7": "Changes to test-d/stdio/option/file-append-invalid.test-d.ts, test-d/stdio/option/file-append.test-d.ts \u2026",
+  "G8": "Changes to test/verbose/log.js",
+  "G9": "Changes to types/stdio/type.d.ts"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 0.9333333333333333,
+  "r": 0.14432989690721648,
+  "f1": 0.25,
+  "ari": 0.13119216113228088
+ },
+ "per_file": {
+  "p": 0.875,
+  "r": 0.07216494845360824,
+  "f1": 0.13333333333333333,
+  "ari": 0.060223937384498306
+ },
+ "one_commit": {
+  "p": 0.5105263157894737,
+  "r": 1.0,
+  "f1": 0.6759581881533101,
+  "ari": 0.0
+ }
+}

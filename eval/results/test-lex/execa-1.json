@@ -1,0 +1,44 @@
+{
+ "repo": "execa",
+ "commits": [
+  "074ea4a Fix Node.js without ICU support (#1144)",
+  "d99a52a Update input.md (#1145)",
+  "0a51f7c 9.3.1",
+  "c4cb62a Improve documentation for `windowsVerbatimArguments` (#1149)"
+ ],
+ "units": 13,
+ "scored": 13,
+ "true_commits": 4,
+ "pred_groups": 6,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to docs/api.md",
+  "G2": "Changes to docs/input.md",
+  "G3": "Changes to docs/windows.md",
+  "G4": "Changes to lib/arguments/escape.js",
+  "G5": "Changes to package.json",
+  "G6": "Changes to test/arguments/escape-no-icu.js, test/arguments/escape.js"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 1.0,
+  "r": 0.6363636363636364,
+  "f1": 0.7777777777777778,
+  "ari": 0.7153284671532847
+ },
+ "per_file": {
+  "p": 1.0,
+  "r": 0.45454545454545453,
+  "f1": 0.625,
+  "ari": 0.5447470817120622
+ },
+ "one_commit": {
+  "p": 0.28205128205128205,
+  "r": 1.0,
+  "f1": 0.44000000000000006,
+  "ari": 0.0
+ }
+}

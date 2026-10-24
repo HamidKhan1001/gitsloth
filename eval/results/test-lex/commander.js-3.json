@@ -1,0 +1,40 @@
+{
+ "repo": "commander.js",
+ "commits": [
+  "acbbe18 Deprecate multi-character short flags (#1718)",
+  "a80b984 Rework example to avoid graphql warnings (#1719)",
+  "06cf751 ci: add nodejs18 as it is released"
+ ],
+ "units": 7,
+ "scored": 7,
+ "true_commits": 3,
+ "pred_groups": 3,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to .github/workflows/tests.yml",
+  "G2": "Changes to docs/deprecated.md",
+  "G3": "Changes to examples/argument.js, examples/arguments.js"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 1.0,
+  "r": 1.0,
+  "f1": 1.0,
+  "ari": 1.0
+ },
+ "per_file": {
+  "p": 1.0,
+  "r": 0.5714285714285714,
+  "f1": 0.7272727272727273,
+  "ari": 0.64
+ },
+ "one_commit": {
+  "p": 0.3333333333333333,
+  "r": 1.0,
+  "f1": 0.5,
+  "ari": 0.0
+ }
+}

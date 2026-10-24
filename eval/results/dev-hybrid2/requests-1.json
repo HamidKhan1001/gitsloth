@@ -1,0 +1,43 @@
+{
+ "repo": "requests",
+ "commits": [
+  "0f358ea Reduce lock thread runs to daily (#6150)",
+  "3af2f45 Fix output of test_lowlevel tests in case of timeout (#6136)",
+  "60865f2 Run 3.11 CI on all platforms (#6155)",
+  "e36f345 Add valdation for header name (#6154)"
+ ],
+ "units": 26,
+ "scored": 21,
+ "true_commits": 4,
+ "pred_groups": 5,
+ "secs": 92,
+ "tokens": 556,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to .github/workflows/lock-issues.yml, .github/workflows/run-tests.yml",
+  "G2": "Changes to requests/_internal_utils.py, requests/utils.py",
+  "G3": "Changes to requests/utils.py",
+  "G4": "Changes to tests/test_requests.py",
+  "G5": "Changes to tests/testserver/server.py"
+ },
+ "method": "hybrid",
+ "model_calls": 1,
+ "model": {
+  "p": 0.9615384615384616,
+  "r": 0.36496350364963503,
+  "f1": 0.5291005291005291,
+  "ari": 0.26538794119959125
+ },
+ "per_file": {
+  "p": 1.0,
+  "r": 0.38686131386861317,
+  "f1": 0.5578947368421052,
+  "ari": 0.30490976436283396
+ },
+ "one_commit": {
+  "p": 0.6523809523809524,
+  "r": 1.0,
+  "f1": 0.7896253602305476,
+  "ari": 0.0
+ }
+}

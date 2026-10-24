@@ -1,0 +1,46 @@
+{
+ "repo": "commander.js",
+ "commits": [
+  "40e67bc Add example for \"global\" options (#1708)",
+  "7d7a674 Clarify option arguments (#1709)",
+  "bf205d1 Check for conflicts in parent commands (#1711)",
+  "b77a0e9 Prepare for 9.2.0",
+  "9864529 Add another PR to CHANGELOG"
+ ],
+ "units": 16,
+ "scored": 13,
+ "true_commits": 4,
+ "pred_groups": 7,
+ "secs": 135,
+ "tokens": 333,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to CHANGELOG.md",
+  "G2": "Changes to CHANGELOG.md",
+  "G3": "Changes to Readme.md",
+  "G4": "Changes to examples/global-options.js",
+  "G5": "Changes to lib/command.js",
+  "G6": "Changes to package-lock.json, package.json",
+  "G7": "Changes to tests/command.conflicts.test.js, tests/options.conflicts.test.js"
+ },
+ "method": "hybrid",
+ "model_calls": 1,
+ "model": {
+  "p": 1.0,
+  "r": 0.6,
+  "f1": 0.7499999999999999,
+  "ari": 0.6708860759493671
+ },
+ "per_file": {
+  "p": 1.0,
+  "r": 0.52,
+  "f1": 0.6842105263157895,
+  "ari": 0.5955056179775281
+ },
+ "one_commit": {
+  "p": 0.32051282051282054,
+  "r": 1.0,
+  "f1": 0.48543689320388356,
+  "ari": 0.0
+ }
+}

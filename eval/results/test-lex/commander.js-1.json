@@ -1,0 +1,42 @@
+{
+ "repo": "commander.js",
+ "commits": [
+  "5bddedf Update CHANGELOG and version for 9.1.0",
+  "8cbd082 Add `\"types\"` to `\"exports\"` (#1704)",
+  "961c45e refactor: replace deprecated String.prototype.substr()",
+  "40e67bc Add example for \"global\" options (#1708)"
+ ],
+ "units": 8,
+ "scored": 8,
+ "true_commits": 4,
+ "pred_groups": 4,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to CHANGELOG.md",
+  "G2": "Changes to examples/global-options.js",
+  "G3": "Changes to lib/help.js",
+  "G4": "Changes to package-lock.json, package.json"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 0.6666666666666666,
+  "r": 0.4,
+  "f1": 0.5,
+  "ari": 0.3170731707317073
+ },
+ "per_file": {
+  "p": 0.75,
+  "r": 0.3,
+  "f1": 0.4285714285714285,
+  "ari": 0.28205128205128205
+ },
+ "one_commit": {
+  "p": 0.35714285714285715,
+  "r": 1.0,
+  "f1": 0.5263157894736842,
+  "ari": 0.0
+ }
+}

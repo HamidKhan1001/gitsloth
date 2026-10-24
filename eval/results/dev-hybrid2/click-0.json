@@ -1,0 +1,41 @@
+{
+ "repo": "click",
+ "commits": [
+  "1a4d8c1 Fix metavar for Choice options when show_choices=False (#2365)",
+  "a6e0d29 Hide default value when show_default is False (#2509)",
+  "948d7a7 Split generation of help extra items and rendering (#2517)"
+ ],
+ "units": 27,
+ "scored": 26,
+ "true_commits": 3,
+ "pred_groups": 4,
+ "secs": 168,
+ "tokens": 1467,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to CHANGES.rst, src/click/types.py \u2026",
+  "G2": "Changes to src/click/core.py, src/click/types.py",
+  "G3": "Changes to src/click/core.py, tests/test_termui.py",
+  "G4": "Changes to tests/test_options.py"
+ },
+ "method": "hybrid",
+ "model_calls": 3,
+ "model": {
+  "p": 1.0,
+  "r": 0.5420560747663551,
+  "f1": 0.703030303030303,
+  "ari": 0.4470678101454811
+ },
+ "per_file": {
+  "p": 0.7985074626865671,
+  "r": 0.5,
+  "f1": 0.6149425287356322,
+  "ari": 0.21880605582263035
+ },
+ "one_commit": {
+  "p": 0.6584615384615384,
+  "r": 1.0,
+  "f1": 0.7940630797773655,
+  "ari": 0.0
+ }
+}

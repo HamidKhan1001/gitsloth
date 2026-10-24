@@ -1,0 +1,48 @@
+{
+ "repo": "fd",
+ "commits": [
+  "072c9e5 Bump normpath from 1.1.0 to 1.1.1",
+  "42244e5 Don't use jemalloc on OpenBSD (jemalloc fails to compile)",
+  "3ae0454 Replace `dirs-next` crate with `etcetera` crate",
+  "c62224d Update instructions for RHEL8 etc."
+ ],
+ "units": 30,
+ "scored": 6,
+ "true_commits": 3,
+ "pred_groups": 10,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to Cargo.lock",
+  "G2": "Changes to Cargo.toml",
+  "G3": "Changes to Cargo.toml",
+  "G4": "Changes to Cargo.toml",
+  "G5": "Changes to Cargo.toml, src/main.rs",
+  "G6": "Changes to README.md",
+  "G7": "Changes to src/dir_entry.rs",
+  "G8": "Changes to src/exec/mod.rs, src/filter/size.rs",
+  "G9": "Changes to src/main.rs",
+  "G10": "Changes to src/walk.rs"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 1.0,
+  "r": 1.0,
+  "f1": 1.0,
+  "ari": 1.0
+ },
+ "per_file": {
+  "p": 1.0,
+  "r": 0.6666666666666666,
+  "f1": 0.8,
+  "ari": 0.7619047619047619
+ },
+ "one_commit": {
+  "p": 0.2,
+  "r": 1.0,
+  "f1": 0.33333333333333337,
+  "ari": 0.0
+ }
+}

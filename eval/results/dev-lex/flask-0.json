@@ -1,0 +1,41 @@
+{
+ "repo": "flask",
+ "commits": [
+  "438edcd Allow self as an argument to url_for",
+  "3252f2b Bump Werkzeug 3.0.0",
+  "1423251 Release version 3.0.0"
+ ],
+ "units": 9,
+ "scored": 8,
+ "true_commits": 3,
+ "pred_groups": 4,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to CHANGES.rst",
+  "G2": "Changes to pyproject.toml",
+  "G3": "Changes to requirements/tests-pallets-min.in, requirements/tests-pallets-min.txt",
+  "G4": "Changes to src/flask/app.py, tests/test_helpers.py"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 0.8,
+  "r": 0.5,
+  "f1": 0.6153846153846154,
+  "ari": 0.5070422535211268
+ },
+ "per_file": {
+  "p": 0.5,
+  "r": 0.125,
+  "f1": 0.2,
+  "ari": 0.0967741935483871
+ },
+ "one_commit": {
+  "p": 0.2857142857142857,
+  "r": 1.0,
+  "f1": 0.4444444444444445,
+  "ari": 0.0
+ }
+}

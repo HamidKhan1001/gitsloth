@@ -1,0 +1,41 @@
+{
+ "repo": "requests",
+ "commits": [
+  "d718e75 Start testing on 3.11 dev branch (#6037)",
+  "fa1b0a3 Initialize JsonDecodeError before initializing IOError (#6036)",
+  "24dfbfd Update quickstart.rst : fixing brotlicffi link (#6044)"
+ ],
+ "units": 9,
+ "scored": 8,
+ "true_commits": 3,
+ "pred_groups": 4,
+ "secs": 49,
+ "tokens": 375,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to .github/workflows/lock-issues.yml, .github/workflows/run-tests.yml",
+  "G2": "Changes to docs/user/quickstart.rst",
+  "G3": "Changes to requests/exceptions.py",
+  "G4": "Changes to tests/test_requests.py"
+ },
+ "method": "hybrid",
+ "model_calls": 1,
+ "model": {
+  "p": 1.0,
+  "r": 0.6363636363636364,
+  "f1": 0.7777777777777778,
+  "ari": 0.68
+ },
+ "per_file": {
+  "p": 1.0,
+  "r": 0.6363636363636364,
+  "f1": 0.7777777777777778,
+  "ari": 0.68
+ },
+ "one_commit": {
+  "p": 0.39285714285714285,
+  "r": 1.0,
+  "f1": 0.5641025641025641,
+  "ari": 0.0
+ }
+}

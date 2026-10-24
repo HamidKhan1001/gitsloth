@@ -1,0 +1,41 @@
+{
+ "repo": "fd",
+ "commits": [
+  "0853e35 build(deps): bump libc from 0.2.149 to 0.2.150",
+  "e1ecba2 build(deps): bump lscolors from 0.15.0 to 0.16.0",
+  "4202f39 build(deps): bump test-case from 3.2.1 to 3.3.1",
+  "00b64f3 Suggest to use `-u` instead of `-HI`"
+ ],
+ "units": 16,
+ "scored": 11,
+ "true_commits": 4,
+ "pred_groups": 3,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to Cargo.lock, Cargo.toml",
+  "G2": "Changes to Cargo.lock",
+  "G3": "Changes to README.md"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 0.3125,
+  "r": 0.5,
+  "f1": 0.38461538461538464,
+  "ari": 0.20720720720720723
+ },
+ "per_file": {
+  "p": 0.3157894736842105,
+  "r": 0.6,
+  "f1": 0.41379310344827586,
+  "ari": 0.23045267489711935
+ },
+ "one_commit": {
+  "p": 0.18181818181818182,
+  "r": 1.0,
+  "f1": 0.3076923076923077,
+  "ari": 0.0
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "repo": "execa",
+ "commits": [
+  "f3a1bf3 Fix deno node:process execPath compatibility (#1160)",
+  "a4d13df 9.4.1",
+  "091ed74 Fix test on non-x64 machines (#1163)"
+ ],
+ "units": 15,
+ "scored": 15,
+ "true_commits": 3,
+ "pred_groups": 6,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to lib/arguments/file-url.js",
+  "G2": "Changes to lib/pipe/pipe-arguments.js",
+  "G3": "Changes to package.json",
+  "G4": "Changes to test/helpers/file-path.js, test/methods/node.js \u2026",
+  "G5": "Changes to test/methods/node.js",
+  "G6": "Changes to test/return/early-error.js"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 1.0,
+  "r": 0.27586206896551724,
+  "f1": 0.4324324324324324,
+  "ari": 0.2543118025025363
+ },
+ "per_file": {
+  "p": 1.0,
+  "r": 0.1724137931034483,
+  "f1": 0.29411764705882354,
+  "ari": 0.15719063545150502
+ },
+ "one_commit": {
+  "p": 0.5523809523809524,
+  "r": 1.0,
+  "f1": 0.7116564417177914,
+  "ari": 0.0
+ }
+}

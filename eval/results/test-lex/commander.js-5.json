@@ -1,0 +1,43 @@
+{
+ "repo": "commander.js",
+ "commits": [
+  "3103c6b Add more tests for implies (#1730)",
+  "e89eca8 chore: Included githubactions in the dependabot config",
+  "f2aec26 Prepare for 9.3.0",
+  "fd24e92 Add target-branch",
+  "3e202f3 Add develop branch for earlier warnings"
+ ],
+ "units": 10,
+ "scored": 10,
+ "true_commits": 4,
+ "pred_groups": 4,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to .github/dependabot.yml, .github/workflows/codeql-analysis.yml",
+  "G2": "Changes to CHANGELOG.md, tests/options.implies.test.js",
+  "G3": "Changes to CHANGELOG.md",
+  "G4": "Changes to package-lock.json, package.json"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 0.625,
+  "r": 0.3125,
+  "f1": 0.4166666666666667,
+  "ari": 0.2354368932038835
+ },
+ "per_file": {
+  "p": 1.0,
+  "r": 0.3125,
+  "f1": 0.47619047619047616,
+  "ari": 0.3694267515923567
+ },
+ "one_commit": {
+  "p": 0.35555555555555557,
+  "r": 1.0,
+  "f1": 0.5245901639344263,
+  "ari": 0.0
+ }
+}

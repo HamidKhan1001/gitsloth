@@ -1,0 +1,43 @@
+{
+ "repo": "commander.js",
+ "commits": [
+  "b2842dc update chinese readme  (#1727)",
+  "4094e22 chore: Set permissions for GitHub actions",
+  "1bab84c Add test for Option passed to wrong routines (#1729)",
+  "3103c6b Add more tests for implies (#1730)"
+ ],
+ "units": 10,
+ "scored": 9,
+ "true_commits": 4,
+ "pred_groups": 5,
+ "secs": 303,
+ "tokens": 1174,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to .github/workflows/tests.yml",
+  "G2": "Changes to Readme_zh-CN.md",
+  "G3": "Changes to docs/zh-CN/\u4e0d\u518d\u63a8\u8350\u4f7f\u7528\u7684\u529f\u80fd.md",
+  "G4": "Changes to docs/zh-CN/\u4e0d\u518d\u63a8\u8350\u4f7f\u7528\u7684\u529f\u80fd.md",
+  "G5": "Changes to tests/command.option-misuse.test.js, tests/options.implies.test.js"
+ },
+ "method": "hybrid",
+ "model_calls": 2,
+ "model": {
+  "p": 0.9090909090909091,
+  "r": 0.6666666666666666,
+  "f1": 0.7692307692307692,
+  "ari": 0.6435643564356435
+ },
+ "per_file": {
+  "p": 1.0,
+  "r": 1.0,
+  "f1": 1.0,
+  "ari": 1.0
+ },
+ "one_commit": {
+  "p": 0.4166666666666667,
+  "r": 1.0,
+  "f1": 0.5882352941176471,
+  "ari": 0.0
+ }
+}

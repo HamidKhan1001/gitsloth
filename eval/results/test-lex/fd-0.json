@@ -1,0 +1,40 @@
+{
+ "repo": "fd",
+ "commits": [
+  "aebe753 Bump regex-syntax from 0.6.28 to 0.6.29",
+  "02c9efb Bump regex from 1.7.1 to 1.7.3",
+  "a428f7e Bump test-case from 2.2.2 to 3.0.0"
+ ],
+ "units": 11,
+ "scored": 11,
+ "true_commits": 3,
+ "pred_groups": 3,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to Cargo.lock",
+  "G2": "Changes to Cargo.lock",
+  "G3": "Changes to Cargo.toml"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 0.23529411764705882,
+  "r": 0.21052631578947367,
+  "f1": 0.2222222222222222,
+  "ari": -0.1544227886056972
+ },
+ "per_file": {
+  "p": 0.32432432432432434,
+  "r": 0.631578947368421,
+  "f1": 0.42857142857142855,
+  "ari": -0.05137395459976102
+ },
+ "one_commit": {
+  "p": 0.34545454545454546,
+  "r": 1.0,
+  "f1": 0.5135135135135135,
+  "ari": 0.0
+ }
+}

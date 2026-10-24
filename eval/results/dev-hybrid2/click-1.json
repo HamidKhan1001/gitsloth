@@ -1,0 +1,46 @@
+{
+ "repo": "click",
+ "commits": [
+  "1787497 Added functionality to set flag_value correctly when using envvar (#2788)",
+  "4271fe2 feat: new method for choice fail (#2622)",
+  "d8763b9 Help shown via no_args_is_help results in exit code 2, was 0 (#1489)",
+  "0ef55fd Close contexts created during shell completion #2644. (#2800)"
+ ],
+ "units": 24,
+ "scored": 23,
+ "true_commits": 4,
+ "pred_groups": 8,
+ "secs": 183,
+ "tokens": 1380,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to CHANGES.rst, src/click/types.py \u2026",
+  "G2": "Changes to docs/api.rst",
+  "G3": "Changes to src/click/core.py, src/click/exceptions.py",
+  "G4": "Changes to src/click/core.py",
+  "G5": "Changes to src/click/core.py, tests/test_arguments.py",
+  "G6": "Changes to src/click/shell_completion.py",
+  "G7": "Changes to tests/test_commands.py",
+  "G8": "Changes to tests/test_shell_completion.py"
+ },
+ "method": "hybrid",
+ "model_calls": 4,
+ "model": {
+  "p": 1.0,
+  "r": 0.5344827586206896,
+  "f1": 0.6966292134831461,
+  "ari": 0.6389725701601394
+ },
+ "per_file": {
+  "p": 0.4666666666666667,
+  "r": 0.3620689655172414,
+  "f1": 0.4077669902912621,
+  "ari": 0.25941743845673976
+ },
+ "one_commit": {
+  "p": 0.22924901185770752,
+  "r": 1.0,
+  "f1": 0.3729903536977492,
+  "ari": 0.0
+ }
+}

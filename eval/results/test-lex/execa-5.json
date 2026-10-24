@@ -1,0 +1,50 @@
+{
+ "repo": "execa",
+ "commits": [
+  "e3572d0 Do not write verbose logs synchronously (#1167)",
+  "e330bd8 Runs CI tests on Node 23 (#1169)",
+  "c8cff27 9.5.1",
+  "2aa3b0c Fixes argument parsing for escaped newlines (#1176)",
+  "99d1741 9.5.2"
+ ],
+ "units": 28,
+ "scored": 22,
+ "true_commits": 4,
+ "pred_groups": 11,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to .github/workflows/main.yml",
+  "G2": "Changes to lib/methods/template.js",
+  "G3": "Changes to lib/verbose/log.js",
+  "G4": "Changes to package.json",
+  "G5": "Changes to test/convert/duplex.js, test/convert/readable.js \u2026",
+  "G6": "Changes to test/convert/duplex.js, test/convert/readable.js",
+  "G7": "Changes to test/convert/readable.js, test/terminate/kill-signal.js",
+  "G8": "Changes to test/fixtures/graceful-ref.js",
+  "G9": "Changes to test/methods/template.js",
+  "G10": "Changes to test/stdio/type-invalid.js, test/stdio/type-undefined.js \u2026",
+  "G11": "Changes to test/verbose/log.js"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 1.0,
+  "r": 0.14285714285714285,
+  "f1": 0.25,
+  "ari": 0.14655172413793102
+ },
+ "per_file": {
+  "p": 1.0,
+  "r": 0.08928571428571429,
+  "f1": 0.1639344262295082,
+  "ari": 0.09174311926605505
+ },
+ "one_commit": {
+  "p": 0.48484848484848486,
+  "r": 1.0,
+  "f1": 0.653061224489796,
+  "ari": 0.0
+ }
+}

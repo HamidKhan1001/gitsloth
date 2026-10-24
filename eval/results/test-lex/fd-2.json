@@ -1,0 +1,45 @@
+{
+ "repo": "fd",
+ "commits": [
+  "e6aa8e8 Add Upcoming Release to changelog",
+  "a11f842 Fix deprecation warning from chrono",
+  "d9b69c8 feat: Add a way to escape { and }in exec templates.",
+  "069b181 Fix documentation for brace escapes",
+  "0fc8fac Fix --help text"
+ ],
+ "units": 24,
+ "scored": 19,
+ "true_commits": 4,
+ "pred_groups": 6,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to CHANGELOG.md",
+  "G2": "Changes to Cargo.lock, Cargo.toml \u2026",
+  "G3": "Changes to doc/fd.1, src/cli.rs",
+  "G4": "Changes to doc/fd.1",
+  "G5": "Changes to src/exec/mod.rs, src/exec/token.rs",
+  "G6": "Changes to src/filter/time.rs"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 0.9090909090909091,
+  "r": 0.5454545454545454,
+  "f1": 0.6818181818181818,
+  "ari": 0.58066211245402
+ },
+ "per_file": {
+  "p": 0.9523809523809523,
+  "r": 0.36363636363636365,
+  "f1": 0.5263157894736843,
+  "ari": 0.4239191465468838
+ },
+ "one_commit": {
+  "p": 0.3216374269005848,
+  "r": 1.0,
+  "f1": 0.48672566371681414,
+  "ari": 0.0
+ }
+}

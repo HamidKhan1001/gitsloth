@@ -1,0 +1,44 @@
+{
+ "repo": "execa",
+ "commits": [
+  "c4cb62a Improve documentation for `windowsVerbatimArguments` (#1149)",
+  "3fc8049 Fix a typo (#1153)",
+  "eb3cfba Add documentation about nano-spawn (#1157)",
+  "ba483e7 Upgrade `npm-run-path` (#1156)",
+  "1b9b9bb 9.4.0"
+ ],
+ "units": 12,
+ "scored": 12,
+ "true_commits": 5,
+ "pred_groups": 5,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to docs/api.md",
+  "G2": "Changes to docs/api.md, docs/windows.md",
+  "G3": "Changes to docs/bash.md, docs/small.md \u2026",
+  "G4": "Changes to package.json",
+  "G5": "Changes to readme.md"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 0.9230769230769231,
+  "r": 0.75,
+  "f1": 0.8275862068965517,
+  "ari": 0.7797062750333779
+ },
+ "per_file": {
+  "p": 0.6666666666666666,
+  "r": 0.25,
+  "f1": 0.36363636363636365,
+  "ari": 0.26666666666666666
+ },
+ "one_commit": {
+  "p": 0.24242424242424243,
+  "r": 1.0,
+  "f1": 0.3902439024390244,
+  "ari": 0.0
+ }
+}

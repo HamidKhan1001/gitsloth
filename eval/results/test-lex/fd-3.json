@@ -1,0 +1,41 @@
+{
+ "repo": "fd",
+ "commits": [
+  "53fd416 docs: Document exclusion of .git/",
+  "8897659 tests: Add tests for ignoring .git/",
+  "08910e4 docs: Some tweaks from review"
+ ],
+ "units": 8,
+ "scored": 6,
+ "true_commits": 3,
+ "pred_groups": 4,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to doc/fd.1",
+  "G2": "Changes to doc/fd.1, src/cli.rs",
+  "G3": "Changes to src/walk.rs",
+  "G4": "Changes to tests/tests.rs"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 0.5,
+  "r": 0.16666666666666666,
+  "f1": 0.25,
+  "ari": 0.062499999999999986
+ },
+ "per_file": {
+  "p": 0.5,
+  "r": 0.16666666666666666,
+  "f1": 0.25,
+  "ari": 0.062499999999999986
+ },
+ "one_commit": {
+  "p": 0.4,
+  "r": 1.0,
+  "f1": 0.5714285714285715,
+  "ari": 0.0
+ }
+}

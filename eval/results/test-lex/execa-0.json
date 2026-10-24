@@ -1,0 +1,41 @@
+{
+ "repo": "execa",
+ "commits": [
+  "57658b0 9.3.0",
+  "6c6e861 Add custom logging section to `readme.md` (#1131)",
+  "f9f7140 Fix stream-related tests with Node 22.5.0 (#1136)"
+ ],
+ "units": 19,
+ "scored": 18,
+ "true_commits": 3,
+ "pred_groups": 4,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to docs/debugging.md, readme.md \u2026",
+  "G2": "Changes to package.json",
+  "G3": "Changes to readme.md",
+  "G4": "Changes to test/convert/duplex.js, test/convert/readable.js \u2026"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 1.0,
+  "r": 0.9285714285714286,
+  "f1": 0.962962962962963,
+  "ari": 0.9337948939852877
+ },
+ "per_file": {
+  "p": 1.0,
+  "r": 0.32857142857142857,
+  "f1": 0.4946236559139785,
+  "ari": 0.34680715777999815
+ },
+ "one_commit": {
+  "p": 0.45751633986928103,
+  "r": 1.0,
+  "f1": 0.6278026905829597,
+  "ari": 0.0
+ }
+}

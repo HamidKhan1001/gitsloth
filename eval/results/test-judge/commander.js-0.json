@@ -1,0 +1,41 @@
+{
+ "repo": "commander.js",
+ "commits": [
+  "1d27078 Add extended conflicts example (#1700)",
+  "019499b Remove low-value argument test (#1701)",
+  "0e29b3d Fix the typo"
+ ],
+ "units": 9,
+ "scored": 8,
+ "true_commits": 2,
+ "pred_groups": 4,
+ "secs": 115,
+ "tokens": 825,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to Readme.md, examples/options-conflicts.js \u2026",
+  "G2": "Changes to Readme.md, examples/options-extra.js",
+  "G3": "Changes to Readme_zh-CN.md",
+  "G4": "Changes to lib/option.js, typings/index.d.ts"
+ },
+ "method": "hybrid",
+ "model_calls": 2,
+ "model": {
+  "p": 1.0,
+  "r": 0.23809523809523808,
+  "f1": 0.3846153846153846,
+  "ari": 0.13513513513513514
+ },
+ "per_file": {
+  "p": 1.0,
+  "r": 0.09523809523809523,
+  "f1": 0.17391304347826084,
+  "ari": 0.05
+ },
+ "one_commit": {
+  "p": 0.75,
+  "r": 1.0,
+  "f1": 0.8571428571428571,
+  "ari": 0.0
+ }
+}

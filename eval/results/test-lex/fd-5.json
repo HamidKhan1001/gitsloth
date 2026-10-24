@@ -1,0 +1,48 @@
+{
+ "repo": "fd",
+ "commits": [
+  "00b64f3 Suggest to use `-u` instead of `-HI`",
+  "fea1622 cli: Tweak default thread count logic",
+  "16c2d1e walk: Flush stdout in batches",
+  "e3b4020 Preprations for fd 9 release",
+  "61ebd9b Update benchmark results"
+ ],
+ "units": 27,
+ "scored": 23,
+ "true_commits": 5,
+ "pred_groups": 9,
+ "secs": 0,
+ "tokens": 0,
+ "invariant_ok": true,
+ "titles": {
+  "G1": "Changes to CHANGELOG.md",
+  "G2": "Changes to CHANGELOG.md, README.md",
+  "G3": "Changes to Cargo.lock, Cargo.toml \u2026",
+  "G4": "Changes to README.md",
+  "G5": "Changes to README.md",
+  "G6": "Changes to README.md",
+  "G7": "Changes to README.md",
+  "G8": "Changes to src/cli.rs",
+  "G9": "Changes to src/walk.rs"
+ },
+ "method": "lexical",
+ "model_calls": 0,
+ "model": {
+  "p": 1.0,
+  "r": 0.4117647058823529,
+  "f1": 0.5833333333333334,
+  "ari": 0.505859375
+ },
+ "per_file": {
+  "p": 0.4,
+  "r": 0.5588235294117647,
+  "f1": 0.46625766871165647,
+  "ari": 0.2227479783890674
+ },
+ "one_commit": {
+  "p": 0.26877470355731226,
+  "r": 1.0,
+  "f1": 0.4236760124610592,
+  "ari": 0.0
+ }
+}
